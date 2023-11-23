@@ -39,10 +39,10 @@ from flask_mail import Mail
 api = Flask(__name__)
 mail = Mail(api)
 
-api.config['MAIL_SERVER'] = 'smtp-mail.outlook.com'
-api.config['MAIL_PORT'] = '587'
-api.config['MAIL_USERNAME'] = 'lucas_guidolinguedes@outlook.com'
-api.config['MAIL_PASSWORD'] = 'lucasgg21121998'
+api.config['MAIL_SERVER'] = 'teste'
+api.config['MAIL_PORT'] = '123'
+api.config['MAIL_USERNAME'] = 'teste'
+api.config['MAIL_PASSWORD'] = 'teste'
 api.config['MAIL_USE_TLS'] = True
 api.config['MAIL_USE_SSL'] = False
 
